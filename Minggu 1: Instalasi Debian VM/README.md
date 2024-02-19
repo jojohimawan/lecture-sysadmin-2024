@@ -9,23 +9,23 @@
 # Instalasi Debian Menggunakan VirtualBox
 
 ### Setup Oracle VM VirtualBox
-**1. Main Screen**
+**1. Main Screen**<br>
 ![homescreen virtualbox](./assets/1.png)<br>
 Untuk menambahkan machine baru, klik pada new yang terletak di main screen virtualbox.
 <br>
-**2. Nama VM dan OS**
+**2. Nama VM dan OS**<br>
 ![Nama VM dan OS](./assets/2.png)<br>
 Akan muncul screen untuk mengatur nama machine dan image dari OS yang akan digunakan. Sesuai penugasan, nama dari machine adalah 'SysAdmin-NRP'. Selain itu, saya menyimpan machine ini di direktori `D:\VM\Deb` dan menggunakan image Debian 12 yang terdapat pada direktori `D:\Downloads\`. Pastikan mencentang checkbox *skip unanttended installation* supaya dapat melakukan setup Debian secara manual nantinya.
 <br>
-**3. Hardware Spec**
+**3. Hardware Spec**<br>
 ![Hardware](./assets/3.png)<br>
 Setelah setup VM dan OS adalah alokasi spesifikasi hardware yg digunakan. Saya menggunakan 4 GB memori dan 2 Core CPU.
 <br>
-**4. Storage**
+**4. Storage**<br>
 ![Storage](./assets/4.png)<br>
 Selanjutnya adalah membuat virtual hard disk. Sesuai dengan penugasan, kapasitas hard disk yang dipakai adalah 25 GB.
 <br>
-**5. Summary**
+**5. Summary**<br>
 ![Summary](./assets/5.png)<br>
 Jika semua sudah selesai, maka bisa lanjut finish.
 ![Result](./assets/6.png)<br>
@@ -81,14 +81,14 @@ Pada FREE SPACE yang tersisa, buat partisi baru dengan kapasitas 1.3 GB sebagai 
 Setelah selesai membuat partisi, arahkan pada *finish partitioning* dan continue.
 <br>
 **4. Package Manager**<br>
-- ![region](./assets/28.png)
+- ![region] (./assets/28.png)<br>
 Selanjutnya adalah konfig package manager, pilih Indonesia pada *Archive Country*.
 
-- ![archive mirror](./assets/29.png)
+- ![archive mirror](./assets/29.png)<br>
 Lalu pilih `kebo.pens.ac.id` pada archive mirror yang tersedia, pastikan device tersambung pada internet. Selanjutnya adalah tunggu hingga proses download dan instalasi package selesai.
 <br>
 **5. GRUB Bootloader**<br>
-- ![grub](./assets/30.png)
+- ![grub](./assets/30.png)<br>
 Langkah selanjutnya adalah menginstall GRUB Bootloader yang berfungsi untuk melakukan proses booting. Arahkan instalasi pada partisi hard disk yang sudah tersedia.
 <br>
 
