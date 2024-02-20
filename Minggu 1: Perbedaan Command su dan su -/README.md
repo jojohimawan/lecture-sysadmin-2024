@@ -8,7 +8,7 @@
 
 # Perbedaan Command su dan su -
 `su` merupakan singkatan dari *substitute user* adalah command Linux yang digunakan untuk berganti user pada saat sesi login. Pada umumnya `su` sering disalah artikan sebagai singkatan dari *super user*.<br>
-Dikarenakan memang command tersebut bisa digunakan untuk mendapatkan privilege *superuser*. Ketika `su` diexecute tanpa username, maka otomatis akan menjadi *superuser* setelah memasukkan root password yang benar. Setelahnya, pengguna akan memasuki default environment root seperti pada contoh dibawah:
+Dikarenakan memang command tersebut bisa digunakan untuk mendapatkan privilege *superuser*. Ketika `su` diexecute tanpa username, maka otomatis akan menjadi *superuser* setelah memasukkan root password yang benar. Setelahnya, pengguna akan memasuki default environment root seperti pada contoh dibawah: <br>
 ![su superuser](./assets/1.png) <br>
 
 ### Command su
